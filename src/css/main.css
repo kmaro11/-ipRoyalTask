@@ -1,0 +1,66 @@
+:root {
+    --white: #FFF;
+    --black-color: #000000;
+    --tertiary-color: #161E54;
+    --background-color: #FAFAFA;
+    --secondary-subtitle-color: #686868;
+    --main-color: #FF5151;
+    --primary-subtitle-color: #686868;
+    --primary-title-color: #303030;
+    --secondary-title-color: #303030;
+    --bordr-color: #f1f1f1;
+    --default-font-size: 16px;
+    --default-border-radius: 16px;
+    --layout-padding: 50px
+}
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: var(--white);
+}
+
+p, div, label, a, span {
+    font-size: var(--default-font-size);
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+h1,h2,h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+a {
+    text-decoration: unset;
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    h1 {
+        font-size: 20px;
+        line-height: 42px;
+    }
+
+    p, div, label, a, span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
